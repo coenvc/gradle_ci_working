@@ -10,6 +10,6 @@ import org.junit.Test;
 public class MainTest {
     Main main = new Main();
     @Test public void TestMain(){
-        Assert.assertEquals(main.Test(),true);
+        Assert.assertEquals(main.Test(),false);
     }
 }
